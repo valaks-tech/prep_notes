@@ -23,3 +23,11 @@
 - Write optimized
 - No ACID properties
 - Easy to add denormalized data / No new column to be added for new stuff to be added (JSON object)
+
+# RAID (Redundant Array of Independent Disks)
+- putting together multiple disks which act like single disk
+- Different levels
+     - RAID 0 (Striping) : splits data evenly across 2 or more disks giving high performance, but NO protection
+     - RAID 1 (Mirroring) : gives an exact copy of data on both disks, offering great reliability 
+     - RAID 4 & 5         : Same as RAID 0, but they save parity information for data saved to them. Parity data is not full data info, but helps great in recreating the data in case of failure
+     - RAID 1 PLUS 0 (RAID 10) : Striped pair of mirrored disks!
