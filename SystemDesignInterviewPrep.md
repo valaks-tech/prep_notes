@@ -16,3 +16,10 @@
 14.	Logging /Monitoring
 15.	Security 
 16.	Algos and DS – sometimes its good to mention if any algorithms can be used
+********************************************************************
+
+# NoSQL databases 
+
+- Write optimized
+- No ACID properties
+- Easy to add denormalized data / No new column to be added for new stuff to be added (JSON object)
