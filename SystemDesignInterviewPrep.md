@@ -32,3 +32,6 @@
      - RAID 4 & 5         : Same as RAID 0, but they save parity information for data saved to them. Parity data is not full data info, but helps great in recreating the data in case of failure
      - RAID 1 PLUS 0 (RAID 10) : Striped pair of mirrored disks!
 - You can purchase a RAID enclosure fill with your own HDDs (hard disk drives) or SSDs(solid state drives) or preconfigured ones!
+
+# Distributed Cache
+- 2 types : Write through / Write Back
